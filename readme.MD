@@ -1,3 +1,6 @@
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/piznel/ffmpeg-jsmpeg.svg)](https://greenkeeper.io/)
+
 Après `npm install`, il faut adapter à votre configuration :
 
 1. Modifier le fichier `./lib/config.js`
