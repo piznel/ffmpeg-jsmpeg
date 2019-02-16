@@ -1,4 +1,4 @@
-Après `npm install`, il faut adapter à votre configuration (inutile si vous installez la box Gladys-rtsp dans Gladys)
+Après `npm install`, il faut adapter à votre configuration (*inutile si vous installez la box Gladys-rtsp dans Gladys*)
 
 1. Modifier le fichier `./lib/config.js`
 2. Modifier le fichier `./public/view-stream.html` en mettant ligne 20 l'adresse IP du serveur qui fera la conversion.
