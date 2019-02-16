@@ -1,3 +1,13 @@
+<!--
+Le serveur de streamin est en https, avec une clé autosignée. Il est donc nécessaire d'autoriser l'ouverture de cette page, en acceptant le certificat autosigné.
+Pour ce faire, allez à l'addresse suivante dans votre navigateur :
+https://url_du_derveur_de_streaming:8082
+Puis acceptez de naviguer vers ce site. Rien ne se passera, mais le certificat sera enregistré.
+Vous pouvez alors ouvrir cette page.
+
+-->
+
+
 <!DOCTYPE html>
 <html>
 
@@ -17,7 +27,7 @@
 	<script type="text/javascript" src="jsmpeg.min.js"></script>
 	<script type="text/javascript">
 		var canvas = document.getElementById('video-canvas');
-		var url = 'ws://127.0.0.1:8082/';		// remplacer 127.0.0.1 par l'ip de la machine qui fera la conversion.
+		var url = 'wss://127.0.0.1:8082/';		// remplacer 127.0.0.1 par l'ip de la machine qui fera la conversion.
 		var player = new JSMpeg.Player(url, { canvas: canvas });
 	</script>
 </body>
